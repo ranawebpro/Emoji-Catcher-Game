@@ -1,0 +1,63 @@
+body {
+  background: rgb(10, 10, 10);
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.scores-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-score {
+    margin-right: 20px;
+    margin: 20px;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    color: #000;
+    border-radius: 33px;
+}
+
+.time {
+  margin-right: 20px;
+  margin: 20px;
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  color: #000;
+  border-radius: 33px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(36, 36, 36);
+  margin-top: 2rem;
+  padding: 20px;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  background: rgb(61, 61, 61);
+}
+
+/* JavaScript */
+.emoji {
+  background-image: url("https://www.pngimages.in/uploads/png-webp/2022/2022-December/laughing_emoji_Transparent_Png_Images.webp");
+  background-position: center;
+  background-size: cover;
+}
